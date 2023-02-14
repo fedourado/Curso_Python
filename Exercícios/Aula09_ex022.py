@@ -1,4 +1,4 @@
-# Crie um programa que leia o nome completo da pessoa: - O nome com todas as letras maiúsculas.
+# Aula 09 — DESAFIO 22
 #  O nome com todas as letras minúsculas;
 #  Quantas letras ao todo (sem considerar espaços);
 #  Quantas letras tem o primeiro nome.

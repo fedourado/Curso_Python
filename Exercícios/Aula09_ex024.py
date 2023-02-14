@@ -1,3 +1,4 @@
+# Aula 09 — DESAFIO 24
 # Crie um programa que leia o nome de uma cidade e diga se ela ou não começa com a palavra “São”
 
 cidade = input('Escreva o nome da sua cidade: ').strip().title()
