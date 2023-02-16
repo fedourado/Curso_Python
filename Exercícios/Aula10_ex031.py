@@ -11,6 +11,6 @@ distancia = (distancia.replace(',','.'))
 valor = float(distancia)
 
 if valor <= 200:
-    print(f'O valor cobrado pela passagem será de R${valor * 0.50:.2f}')
+    print(f'A distância da sua viagem é {distancia}km e o valor cobrado pela passagem será de R${valor * 0.50:.2f}')
 else:
-    print(f'O valor cobrado pela passagem será de R${valor * 0.45:.2f}')
+    print(f'A distância da sua viagem é {distancia}km e o valor cobrado pela passagem será de R${valor * 0.45:.2f}')

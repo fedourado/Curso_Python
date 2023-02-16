@@ -20,12 +20,15 @@ print('VAMOS JOGAR!')
 print('-=-' * 41)
 
 num_usuario = int(input('Eu já escolhi o número. Agora,você escolhe um número entre 0 e 5 e vamos ver se tem sorte: '))
-print('PROCESSANDO...')
+
+print('\033[0;35mPROCESSANDO...\033[m')
 # sleep(1) -- Essa função irá fazer com que a próxima frase demora 2s para aparecer na tela
 
 if num_usuario == num_escolhido:
     playsound.playsound('D:/Feh/pythonProjects/Exercícios/Fausto_acertou.mp3')
-    print(emoji.emojize('PARABÉNS :grinning_face_with_smiling_eyes:! você escolheu o número certo e venceu o jogo!'))
+    print(emoji.emojize('\033[0;32mPARABÉNS :grinning_face_with_smiling_eyes:! você escolheu o número certo '
+                        'e venceu o jogo!\033[m'))
 else:
     playsound.playsound('D:/Feh/pythonProjects/Exercícios/Fausto_Errou.mp3')
-    print(emoji.emojize(f'É uma pena você perdeu :slightly_frowning_face:! O número era o {num_escolhido}.'))
+    print(emoji.emojize(f'\033[0;31mÉ uma pena você perdeu :slightly_frowning_face:! O número era '
+                        f'o {num_escolhido}.\033[m'))

@@ -3,7 +3,7 @@
 
 print('Calculadora de ajuste salarial.')
 
-sal = str(input('Digite o valor do salário para ter o reajuste: '))
+sal = str(input('Digite o valor do salário para ter o reajuste. R$'))
 sal = float(sal.replace(',','.'))
 print('\n')
 
